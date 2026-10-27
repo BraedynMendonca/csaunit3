@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class StandardArrayAlgorithms
+public class Step19_20RotateLeft
 {
   // run the array algorithm
   public static void main(String[] args)

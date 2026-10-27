@@ -1,4 +1,4 @@
-public class StandardArrayAlgorithms
+public class Step16CountAge15Zero
 {
   // run the array algorithm
   public static void main(String[] args)
@@ -19,5 +19,29 @@ public class StandardArrayAlgorithms
       }
     }
     System.out.println("Number of players who are 15 years old: " + count15);
+  }
+
+  private static class Player
+  {
+    private String name;
+    private int age;
+
+    public Player(String name, int age)
+    {
+      this.name = name;
+      this.age = age;
+    }
+
+    // return the player's name
+    public String getName()
+    {
+      return name;
+    }
+
+    // return the player's age
+    public int getAge()
+    {
+      return age;
+    }
   }
 }

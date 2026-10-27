@@ -1,4 +1,4 @@
-public class StandardArrayAlgorithms
+public class Step02SumAverage
 {
   // run the array algorithm
   public static void main(String[] args)

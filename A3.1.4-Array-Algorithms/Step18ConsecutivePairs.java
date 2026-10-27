@@ -1,4 +1,4 @@
-public class StandardArrayAlgorithms
+public class Step18ConsecutivePairs
 {
   // run the array algorithm
   public static void main(String[] args)
@@ -17,6 +17,30 @@ public class StandardArrayAlgorithms
     {
       // move to the next pair
       System.out.println(players[i].getName() + " and " + players[i + 1].getName());
+    }
+  }
+
+  private static class Player
+  {
+    private String name;
+    private int age;
+
+    public Player(String name, int age)
+    {
+      this.name = name;
+      this.age = age;
+    }
+
+    // return the player's name
+    public String getName()
+    {
+      return name;
+    }
+
+    // return the player's age
+    public int getAge()
+    {
+      return age;
     }
   }
 }

@@ -1,11 +1,11 @@
-public class StandardArrayAlgorithms
+public class Step09AtLeastOneFound
 {
   // run the array algorithm
   public static void main(String[] args)
   {
     Player[] players = {
       new Player("Alex", 15),
-      new Player("Bobbie", 17),
+      new Player("Bobbie", 18),
       new Player("Chris", 16)
     };
     boolean hasValue = false;
@@ -27,6 +27,30 @@ public class StandardArrayAlgorithms
     else
     {
       System.out.println("At least one player is 18 or older: Not Found.");
+    }
+  }
+
+  private static class Player
+  {
+    private String name;
+    private int age;
+
+    public Player(String name, int age)
+    {
+      this.name = name;
+      this.age = age;
+    }
+
+    // return the player's name
+    public String getName()
+    {
+      return name;
+    }
+
+    // return the player's age
+    public int getAge()
+    {
+      return age;
     }
   }
 }
