@@ -1,8 +1,9 @@
 /*
  * Activity 3.1.3
  */
-public class EnhancedForStates
+public class Step01EnhancedForStates
 {
+  // run the array example
   public static void main(String[] args)
   {
     String[] newEngland = {"Maine", "New Hampshire",
@@ -10,6 +11,7 @@ public class EnhancedForStates
                            "Connecticut", "Rhode Island"};
 
     System.out.println("The New England States:");
+    // go through each state
     for (String state : newEngland)
     {
       System.out.println(state);
