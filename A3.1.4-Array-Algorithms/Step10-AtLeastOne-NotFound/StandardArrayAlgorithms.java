@@ -1,5 +1,6 @@
 public class StandardArrayAlgorithms
 {
+  // run the array algorithm
   public static void main(String[] args)
   {
     Player[] players = {
@@ -9,12 +10,14 @@ public class StandardArrayAlgorithms
     };
     boolean hasValue = false;
     int index = 0;
+    // check each player until one matches
     while (!hasValue && index < players.length)
     {
       if (players[index].getAge() >= 18)
       {
         hasValue = true;
       }
+      // move to the next player
       index++;
     }
     if (hasValue)

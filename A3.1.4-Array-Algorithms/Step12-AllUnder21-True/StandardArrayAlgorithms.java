@@ -1,5 +1,6 @@
 public class StandardArrayAlgorithms
 {
+  // run the array algorithm
   public static void main(String[] args)
   {
     Player[] players = {
@@ -8,10 +9,12 @@ public class StandardArrayAlgorithms
       new Player("Chris", 16)
     };
     boolean allHaveValue = true;
+    // check each player for the age limit
     for (Player p : players)
     {
       if (p.getAge() >= 21)
       {
+        // mark that not all players match
         allHaveValue = false;
       }
     }

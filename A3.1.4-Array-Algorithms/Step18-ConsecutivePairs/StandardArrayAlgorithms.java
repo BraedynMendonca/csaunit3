@@ -1,5 +1,6 @@
 public class StandardArrayAlgorithms
 {
+  // run the array algorithm
   public static void main(String[] args)
   {
     Player[] players = {
@@ -9,8 +10,10 @@ public class StandardArrayAlgorithms
       new Player("Blaine", 20)
     };
     System.out.println("Consecutive Player Pairs:");
+    // go through each consecutive pair
     for (int i = 0; i < players.length - 1; i++)
     {
+      // move to the next pair
       System.out.println(players[i].getName() + " and " + players[i + 1].getName());
     }
   }

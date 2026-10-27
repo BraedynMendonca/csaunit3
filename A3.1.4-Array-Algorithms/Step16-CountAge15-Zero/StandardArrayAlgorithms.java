@@ -1,5 +1,6 @@
 public class StandardArrayAlgorithms
 {
+  // run the array algorithm
   public static void main(String[] args)
   {
     Player[] players = {
@@ -8,10 +9,12 @@ public class StandardArrayAlgorithms
       new Player("Chris", 17)
     };
     int count15 = 0;
+    // check each player and count matches
     for (Player p : players)
     {
       if (p.getAge() == 15)
       {
+        // add one for each match
         count15++;
       }
     }
